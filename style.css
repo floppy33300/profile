@@ -1,0 +1,113 @@
+body {
+  background-color: #576167;
+  font-family: Montserrat, sans serif;
+  color: #D3DBE0;
+  font-size: 30px;
+}
+
+h1 {
+  color: #15324C;
+  font-size: 40px;
+  font-family: Raleway, sans serif;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+h2 {
+  color: #15324C;
+  font-size: 20px;
+  font-family: Raleway, sans serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  color: #415B72;
+}
+
+#photo {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+li {
+  color: ;
+  text-decoration: none;
+}
+
+div {
+  background: white;
+  width: 600px;
+  padding: 10px;
+  margin: 15px auto;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgb(220, 220, 220);
+  text-align: center;
+}
+
+#header {
+  padding: 10px auto;
+}
+
+#header h1, img {
+  margin-bottom: 15px
+}
+
+#btn-purple img{
+  width: 30%;
+
+}
+
+#btn-purple {
+  color: white;
+  padding: 10px auto;
+  text-decoration: none;
+  width: 10%;
+  height: auto;
+}
+
+#btn-purple img:hover {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+.social-link {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.social-link > a:hover {
+  color: rgb(100, 100, 100);
+}
+
+.social-link > a {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline;
+}
+
+@media (max-width: 960px) {
+  div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  div {
+    width: 300px;
+  }
+}
